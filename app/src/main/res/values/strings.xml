@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Simple App</string>
+    <string name="bus_tracking_system">Bus Tracking system</string>
+    <string name="bus_tracking_device">Bus Tracking device</string>
+    <string name="bus_picture">Bus Picture</string>
+    <string name="books_that_might_interest_you">Books that might interest you:</string>
+</resources>
