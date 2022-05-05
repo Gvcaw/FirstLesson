@@ -13,8 +13,8 @@
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="208dp"
-        android:layout_height="286dp"
+        android:layout_width="209dp"
+        android:layout_height="276dp"
         app:srcCompat="@drawable/catcher_in_the_rye"
         tools:ignore="ImageContrastCheck" />
 
@@ -47,6 +47,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Bookmark" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:text="Check more details" />
 
 
 </LinearLayout>
