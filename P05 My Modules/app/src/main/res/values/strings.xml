@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Modules</string>
+    <string name="c346">C346 Android Programming</string>
+    <string name="c203">C203 Web Application Development with PHP</string>
+    <string name="c328">C328 Intelligent Networks</string>
+    <string name="c229">C229 OS and Cloud Computing</string>
+    <string name="c331">C331 Digital Forensics</string>
+
+</resources>
