@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="sg.edu.rp.c346.id21024429.mylocalbanks">
-    <uses-permission android:name="android.permission.CALL_PHONE"/>
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,6 +11,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyLocalBanks">
+        <activity
+            android:name=".OrderDrinksActivity"
+            android:exported="false"
+            android:label="@string/title_activity_order_drinks"
+            android:theme="@style/Theme.MyLocalBanks.NoActionBar" />
+        <activity
+            android:name=".yada"
+            android:exported="false"
+            android:label="@string/title_activity_yada"
+            android:theme="@style/Theme.MyLocalBanks.NoActionBar" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

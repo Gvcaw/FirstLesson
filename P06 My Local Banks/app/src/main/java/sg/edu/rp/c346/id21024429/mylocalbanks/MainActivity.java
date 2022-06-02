@@ -74,9 +74,9 @@ public class MainActivity extends AppCompatActivity {
         }
         if (btnClicked.equalsIgnoreCase("uob")) {
             if (item.getItemId() == 0) {
-                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.uob.com"));
-                startActivity(intent);
-            } else if (item.getItemId() == 1) {
+
+            } else if Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.uob.com"));
+            startActivity(intent);(item.getItemId() == 1) {
                 Intent intentCall = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:" + 18002266121L));
                 startActivity(intentCall);
             }
